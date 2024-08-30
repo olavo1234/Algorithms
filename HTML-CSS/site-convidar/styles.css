@@ -1,0 +1,46 @@
+body {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: left;
+}
+
+div {
+    text-align: left;
+    font-size: 23px;
+    color: black;
+}
+
+input {
+    width: 180px;
+    height: 28px;
+    font-size: 19px;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: brown;
+}
+
+
+h6 {
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+
+    button{
+        width: 140px;
+        height: 55px;
+        background-color: green;
+    }
+}
