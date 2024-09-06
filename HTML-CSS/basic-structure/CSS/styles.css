@@ -1,0 +1,20 @@
+.steinsgate {
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.genres-SG {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+body {
+    background-color: black;
+}
+
+.alterar-modo {
+    background-color: grey;
+}
