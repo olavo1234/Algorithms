@@ -1,20 +1,41 @@
-.steinsgate {
-    font-size: large;
+.steinsgate-image {
     text-align: center;
-    color: white;
 }
 
-.genres-SG {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
+.text {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    padding: 150px;
 }
 
 body {
     background-color: black;
 }
 
+.body-home {
+    background-color: slategrey;
+}
+
 .alterar-modo {
+    background-color: transparent;
+    border: 0px;
+    width: 200;
+    height: 100;
+}
+
+.button-div-modo {
     background-color: grey;
+}
+
+header {
+    text-align: center;
+    color: brown;
+    background-color: grey;
+    padding: 19px;
+}
+
+.rodape {
+    color: red;
 }

@@ -9,7 +9,7 @@ botaoModo.addEventListener('click', function(){
             elemento.style.background = "white";
         });
         
-        const font_elementos = document.querySelectorAll(".steinsgate");
+        const font_elementos = document.querySelectorAll(".text");
         font_elementos.forEach(font_elementos => {
             font_elementos.style.color = 'black'
         });
@@ -19,7 +19,7 @@ botaoModo.addEventListener('click', function(){
             elemento.style.background = "black";
         });
         
-        const font_elementos = document.querySelectorAll(".steinsgate");
+        const font_elementos = document.querySelectorAll(".text");
         font_elementos.forEach(font_elementos => {
             font_elementos.style.color = 'white'
         });
