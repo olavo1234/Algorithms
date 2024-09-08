@@ -1,41 +1,89 @@
 .steinsgate-image {
     text-align: center;
+    padding: 120px;
 }
 
 .text {
     color: white;
     margin: 0;
     text-align: center;
-    font-size: x-large;
+    font-size: larger;
     padding: 150px;
+    font-family: Arial, sans-serif;
 }
 
 body {
     background-color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
 .body-home {
-    background-color: slategrey;
+    background-color: white;
 }
 
 .alterar-modo {
     background-color: transparent;
     border: 0px;
-    width: 200;
-    height: 100;
 }
 
 .button-div-modo {
-    background-color: grey;
+    text-align: end;
+    top: 0;
+    right: 0;
+    position: fixed;
+    padding: 15px;
+    margin: 15px;
+    padding: 50px;
+    z-index: 1000;
+    border: 0;
 }
 
-header {
+.div-button-blog-home {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    z-index: 1000;
+}
+
+.button-blog-home {
+    background-color: white;
+    color: black;
+    font-size: xx-large;
     text-align: center;
-    color: brown;
-    background-color: grey;
-    padding: 19px;
+    width: 700px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    z-index: 1000;
 }
 
 .rodape {
     color: red;
+}
+
+.image-click img {
+    cursor: pointer;
+}
+
+.nav-post {
+    color: transparent;
+    text-align: center;
+}
+
+.image-nav-post {
+    padding: 10px;
+    background-color: gray;
+    border: none;
+    margin: 50px;
 }
