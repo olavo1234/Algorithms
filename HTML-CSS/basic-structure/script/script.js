@@ -1,6 +1,6 @@
-var contador = 0;
+let contador = 0;
 
-const botaoModo = document.getElementById("alterarModo");
+const botaoModo = document.getElementById("darkMode");
 
 botaoModo.addEventListener('click', function(){ 
     if (contador % 2 == 0) {

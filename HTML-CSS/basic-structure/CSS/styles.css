@@ -1,42 +1,7 @@
-.steinsgate-image {
-    text-align: center;
-    padding: 120px;
-}
-
-.text {
-    color: white;
-    margin: 0;
-    text-align: center;
-    font-size: larger;
-    padding: 150px;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: black;
-    margin: 0px;
-    padding: 0px;
-}
-
 .body-home {
     background-color: white;
-}
-
-.alterar-modo {
-    background-color: transparent;
-    border: 0px;
-}
-
-.button-div-modo {
-    text-align: end;
-    top: 0;
-    right: 0;
-    position: fixed;
-    padding: 15px;
-    margin: 15px;
-    padding: 50px;
-    z-index: 1000;
-    border: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 .div-button-blog-home {
@@ -68,12 +33,8 @@ body {
     z-index: 1000;
 }
 
-.rodape {
-    color: red;
-}
-
-.image-click img {
-    cursor: pointer;
+.div-button-blog-home button:hover {
+    background-color: gray;
 }
 
 .nav-post {
@@ -86,4 +47,54 @@ body {
     background-color: gray;
     border: none;
     margin: 50px;
+}
+
+.body-post {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+.button-alterar-dark-mode {
+    background-color: transparent;
+    border: 0px;
+}
+
+.div-dark-mode {
+    text-align: end;
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin: 20px auto;
+    padding: 50px;
+    z-index: 1000;
+    border: 0px;
+}
+
+.image-click-dark-mode img {
+    cursor: pointer;
+}
+
+.image-post {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    margin: 0px;
+}
+
+.text {
+    color: white;
+    font-family: Lora !important;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.4em;
+}
+
+.rodape {
+    color: red;
 }
