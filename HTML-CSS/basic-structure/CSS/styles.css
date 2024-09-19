@@ -9,7 +9,6 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    position: fixed;
     top: 0;
     left: 0;
     padding: 0;
@@ -22,7 +21,6 @@
 .button-blog-home {
     background-color: white;
     color: black;
-    position: fixed;
     font-size: xx-large;
     text-align: center;
     cursor: pointer;
@@ -37,10 +35,9 @@
 }
 
 .div-menu {
-    position: absolute;
+    display: flex;
+    justify-content: flex-end;
     z-index: 1000;
-    top: 0;
-    right: 0;
     border: 0;
 }
 
@@ -48,15 +45,20 @@
     background: none;
     border: 0;
     font-size: 40px;
+    margin-left: 630px;
+    z-index: 1000;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .menu-content {
     display: none;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
+    top: 50px;
     background-color: gray;
     height: 500px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 10px;
     z-index: 1000;
 }
@@ -92,7 +94,7 @@
 }
 
 .button-alterar-dark-mode {
-    background-color:transparent;
+    background-color: transparent;
     border: 0;
     cursor: pointer;
 }
@@ -129,4 +131,30 @@
 
 .rodape {
     color: red;
+}
+
+.body-about-me {
+    background: #f4f2ee;
+    padding: 0;
+    margin: 0;
+}
+
+.title-about-me {
+    padding: 1rem;
+    font-size: 1.4em;
+}
+
+.title-about-me h1 {
+    color: black;
+    text-align: center;
+}
+
+.img-about-me {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.img-about-me img {
+    border-radius: 50%;
+    border: 1px solid black;
 }
